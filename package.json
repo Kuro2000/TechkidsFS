@@ -1,0 +1,25 @@
+{
+  "name": "techkidsfs",
+  "version": "1.0.0",
+  "description": "preparing for hackathon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kuro2000/TechkidsFS.git"
+  },
+  "author": "Kuro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kuro2000/TechkidsFS/issues"
+  },
+  "homepage": "https://github.com/Kuro2000/TechkidsFS#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.1.0"
+    }
+}
