@@ -1,6 +1,5 @@
 myAngular.controller("NavbarController", ["$scope", "$state",
 function($scope, $state){
-
   $scope.goHome = function(){
     $state.go("home");
   }

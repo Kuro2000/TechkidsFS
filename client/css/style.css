@@ -7,3 +7,44 @@ body{
   border-color: #3b5998;
   border-radius: 0;
 }
+
+a{
+  cursor: pointer;
+}
+
+.navbar-inverse .navbar-brand{
+  color: #fafafa;
+}
+
+.navbar-inverse .navbar-brand:hover{
+  background: #355089;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+  color: #fafafa;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+  background: #355089;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+input.ng-dirty{
+   border-bottom: 1px solid yellow;
+}
+input.ng-invalid.ng-dirty{
+   border-bottom: 1px solid red;
+}
+input.ng-valid.ng-dirty{
+   border-bottom: 1px solid green;
+}
+input.ng-invalid-minlength.ng-dirty{
+   border-bottom: 1px solid blue;
+}
+input.ng-invalid-maxlength.ng-dirty{
+   border-bottom: 1px solid blue;
+}
